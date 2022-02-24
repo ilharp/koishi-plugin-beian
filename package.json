@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-beian",
+  "version": "0.1.0",
+  "description": "在 Koishi 控制台底部显示备案信息。",
+  "repository": "https://github.com/ilharp/koishi-plugin-beian.git",
+  "author": "Il Harper <afanyiyu@hotmail.com> (https://ilharper.com)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -b src & koishi-console build",
+    "lint": "eslint --ext .ts --ignore-path .gitignore . --fix"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "peerDependencies": {
+    "@koishijs/plugin-console": "*",
+    "koishi": "^4"
+  },
+  "devDependencies": {
+    "@koishijs/client": "*",
+    "@koishijs/plugin-console": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-import-resolver-typescript": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-prettier": "*",
+    "koishi": "^4",
+    "prettier": "*",
+    "typescript": "*"
+  }
+}
