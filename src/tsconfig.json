@@ -3,7 +3,6 @@
     "target": "es2020",
     "module": "commonjs",
     "declaration": true,
-    "emitDeclarationOnly": true,
     "composite": true,
     "incremental": true,
     "skipLibCheck": true,
@@ -12,10 +11,6 @@
     "strictBindCallApply": true,
     "strict": true,
     "removeComments": true,
-    "rootDir": "src",
-    "outDir": "lib",
+    "outDir": "../lib",
   },
-  "include": [
-    "src"
-  ]
 }
