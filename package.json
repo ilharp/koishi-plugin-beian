@@ -6,6 +6,7 @@
   "author": "Il Harper <afanyiyu@hotmail.com> (https://ilharper.com)",
   "license": "MIT",
   "private": false,
+  "packageManager": "yarn@1.22.17",
   "scripts": {
     "build": "tsc -b src & koishi-console build",
     "lint": "eslint --ext .ts --ignore-path .gitignore . --fix"
