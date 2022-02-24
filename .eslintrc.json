@@ -6,7 +6,6 @@
   },
   "parser": "@typescript-eslint/parser",
   "extends": [
-    "standard",
     "plugin:import/errors",
     "plugin:import/warnings",
     "eslint:recommended",
@@ -21,7 +20,10 @@
   ],
   "settings": {
     "import/parsers": {
-      "@typescript-eslint/parser": [".ts", ".tsx"]
+      "@typescript-eslint/parser": [
+        ".ts",
+        ".tsx"
+      ]
     },
     "import/resolver": {
       "typescript": {
