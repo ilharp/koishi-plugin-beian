@@ -2,7 +2,8 @@
   "root": true,
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es2020": true
   },
   "parser": "@typescript-eslint/parser",
   "extends": [
@@ -30,5 +31,14 @@
         "alwaysTryTypes": true
       }
     }
+  },
+  "rules": {
+    "import/named": 0,
+    "@typescript-eslint/no-namespace": [
+      2,
+      {
+        "allowDeclarations": true
+      }
+    ]
   }
 }
