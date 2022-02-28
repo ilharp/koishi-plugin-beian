@@ -1,9 +1,13 @@
 {
   "name": "koishi-plugin-beian",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "在 Koishi 控制台底部显示备案信息。",
   "repository": "https://github.com/ilharp/koishi-plugin-beian.git",
-  "author": "Il Harper <afanyiyu@hotmail.com> (https://ilharper.com)",
+  "author": {
+    "name": "Il Harper",
+    "email": "afanyiyu@hotmail.com",
+    "url": "https://ilharper.com"
+  },
   "license": "MIT",
   "private": false,
   "packageManager": "yarn@1.22.17",
