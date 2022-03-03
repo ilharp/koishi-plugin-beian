@@ -1,6 +1,6 @@
 {
   "name": "koishi-plugin-beian",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "在 Koishi 控制台底部显示备案信息。",
   "repository": "https://github.com/ilharp/koishi-plugin-beian.git",
   "author": {
@@ -12,7 +12,7 @@
   "private": false,
   "packageManager": "yarn@1.22.17",
   "scripts": {
-    "build": "tsc -b src & koishi-console build",
+    "build": "tsc -b src && koishi-console build",
     "lint": "eslint --ext .ts --ignore-path .gitignore . --fix"
   },
   "main": "lib/index.js",
